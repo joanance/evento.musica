@@ -1,0 +1,19 @@
+@use 'hero';
+@use '_event';
+@use '../styles/componentes/infos_bar.scss';
+@use '../styles/componentes/buttons';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: roboto, sans-serif;
+    color: #fff;
+    list-style: none;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}

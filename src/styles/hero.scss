@@ -1,0 +1,57 @@
+.hero {
+    padding-top: 64px;
+    padding-bottom: 90px;
+    background-image: url(../imag/palco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+
+    .container {
+        position: relative;
+    }
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        content: '';
+        opacity: .2;
+    }
+
+    &__text {
+        margin-top: 20px;
+        margin-bottom: 64px;
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: 800px;
+        text-align: center;
+        position: relative;
+        color: #fff;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (max-width: 640) {
+        padding: 40px 0;
+
+        &__logo {
+            height: 80px;
+        }
+
+        &__text {
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+    }
+}

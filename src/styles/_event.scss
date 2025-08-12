@@ -1,0 +1,60 @@
+.event {
+    padding: 80px 0;
+
+    &--jazz {
+        background-image: linear-gradient( #DC143C, #008B8B) ;
+    }
+
+    &--metal {
+        background-image: linear-gradient( #008B8B , rgba(0, 0, 0, 0.564) );
+    }
+
+    &--country {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.564) , #191970) ;
+    }
+
+    &--pagode {
+        background-image: linear-gradient(#191970 , rgb(16, 146, 16)) ;
+    }
+
+
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container {
+        display: flex;
+        gap: 50px;
+    }
+
+
+    &__image {
+        width: 360px;
+    }
+
+    &__details {
+
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        &__discription {
+            line-height: 22px;
+            margin-bottom: 4px;
+        }
+
+        &__video {
+            text-decoration: none;
+            background-color: rgb(12, 135, 12);
+            font-size: 20px;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 4px;
+        }
+    }
+}
