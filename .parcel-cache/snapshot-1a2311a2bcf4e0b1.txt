@@ -10,7 +10,7 @@
 127C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c133978410702807809 0
 98C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\node_modules\sass\types\value\string.d.ts133979235422782564 0
 91C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\node_modules\caniuse-lite\dist\lib133978415394173720 1
-69C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\package.json133979248517097560 0
+69C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\package.json133994772947186981 0
 98C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\node_modules\electron-to-chromium\LICENSE133978410580445479 0
 101C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\node_modules\caniuse-lite\data\regions\FM.js133978410753250718 0
 107C:\Users\55749\OneDrive\Documentos\ebac-curso\Niver.cont\node_modules\caniuse-lite\data\features\streams.js133978410872158470 0
